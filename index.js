@@ -26,6 +26,7 @@ app.get("/", (req, res) => {
   res.send("abdulla");
 });
 app.post("/scan", upload.single("image"), async (req, res) => {
+  
   try {
     const imagePath = req.file.path;
     const imageBuffer = fs.readFileSync(imagePath);
