@@ -1,0 +1,21 @@
+{
+  "name": "qr-reader-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@undecaf/zbar-wasm": "^0.11.0",
+    "express": "^5.1.0",
+    "jimp": "^1.6.0",
+    "jsqr": "^1.4.0",
+    "multer": "^2.0.1",
+    "qrcode": "^1.5.4",
+    "qrcode-reader": "^1.0.4",
+    "sharp": "^0.34.2"
+  }
+}
